@@ -35,13 +35,10 @@ public class TaskList {
         this.list.add(t);
     }
 
-<<<<<<< HEAD
     /**
      * Removes task at selected index.
      * @param index index of task in ArrayList.
      */
-=======
->>>>>>> A-CodingStandard
     public void delete(int index) {
         this.list.remove(index);
     }
