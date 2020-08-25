@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class TaskList {
-    ArrayList<Task> list;
+    private ArrayList<Task> list;
 
     /**
      * Initialises a TaskList with an empty ArrayList<Task>.
@@ -35,11 +35,18 @@ public class TaskList {
         this.list.add(t);
     }
 
+<<<<<<< HEAD
     /**
      * Removes task at selected index.
      * @param index index of task in ArrayList.
      */
+=======
+>>>>>>> A-CodingStandard
     public void delete(int index) {
         this.list.remove(index);
+    }
+
+    public ArrayList<Task> getList() {
+        return this.list;
     }
 }
